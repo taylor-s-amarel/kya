@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "PageTitle": "Agency Visualizer",
+      "Widgets": [{
+        "Type": "FilteredChart",
+        "Filter": {
+          "Exact Address" : ["Enabled", "Disabled"],
+          "Bounding Address": ["Enabled", "Disabled"],
+          "Email": ["Enabled", "Disabled"],
+          "Telephone": ["Enabled", "Disabled"],
+          "Fax": ["Enabled", "Disabled"]
+        },
+        "Api": "/api/agencyData",
+        "Options": {
+          "layout": {
+            "improvedLayout": true
+          },
+          "interaction": {
+            "hover": true
+          },
+          "edges": {
+            "arrows": {
+              "to": {
+                "enabled": false,
+                "scaleFactor": 0.5
+              }
+            },
+            "smooth": {
+              "forceDirection": "none"
+            }
+          },
+          "physics": {
+            "timestep": 1,
+            "solver": "forceAtlas2Based",
+            "barnesHut": {
+              "avoidOverlap": 0.2
+            },
+            "stabilization": {
+              "updateInterval": 50,
+              "enabled": true,
+              "iterations": 5000,
+              "fit": true
+            }
+          }
+        }
+      }]
+    },
+    {
+      "PageTitle": "Agency Search",
+      "Widgets": [{
+        "Type": "Detail",
+        "Api": "/api/agencyDetail"
+      }]
+    },
+    {
+      "PageTitle": "About",
+      "Widgets": [{
+        "Type": "About"
+      }]
+    },
+    {
+      "PageTitle": "Contact",
+      "Widgets": [{
+        "Type": "Form"
+      }]
+    }
+  ]
+}

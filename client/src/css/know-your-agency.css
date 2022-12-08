@@ -1,0 +1,253 @@
+.agency-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.know-your-agency-logo {
+  height: 80px;
+  display: inline-block;
+}
+
+.navbar-nav li a {
+ line-height: 50px;
+}
+
+.know-your-agency-graph {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  float: left;
+  height: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 100%;
+}
+
+.no-display {
+  display: none;
+}
+
+.know-your-agency-page-content-wrapper {
+   position: relative;
+   display: inline-block;
+   background-color: white;
+   float: right;
+   width: 73%;
+   height: 100%;
+   border-left: 2px solid grey;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 25%;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.know-your-agency-search {
+  display: inline-block;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.know-your-agency-detail-search {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.know-your-agency-detail {
+  background-color: #F3F3F3;
+  padding: 5px 20px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid #D2D2D2;
+}
+
+.know-your-agency-about {
+  padding: 5px 20px;
+  margin-bottom: 15px;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-size: 16px;
+}
+
+.know-your-agency-warning {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+.know-your-agency-filter {
+  height: 100%;
+  width: 27%;
+  display: inline-block;
+}
+
+.know-your-agency-content {
+  padding-top: 80px;
+}
+
+.agency-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #D2E5FF;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #2B7CE9;
+  margin-right: 5px;
+}
+
+.accredited-agency-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #42f48c;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #379146;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.money-lender-dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(219, 57, 57);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.key {
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.know-your-agency-center-button {
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+}
+
+.key-container {
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.know-your-agency-agency-name {
+  cursor: pointer;
+  color: #406098;
+}
+
+.know-your-agency-ml-name {
+  color: #C0392B;
+}
+
+.agency-square {
+  height: 16px;
+  width: 16px;
+  background-color: #406098;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.money-lender-square {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-color: #C0392B;
+  margin-right: 5px;
+}
+
+.search-key {
+  color: black;
+  line-height: 16px;
+  vertical-align: middle;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.toggle-text {
+  display: inline-block;
+  height: 26px;
+  vertical-align: middle;
+  margin-bottom: 13px;
+  margin-left: 5px;
+}
+
+.know-your-agency-toggle {
+  margin-left: 3%;
+}
+
+.FSP {
+  margin-left: 12px;
+}
+
+.access-restrictor__form {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  padding: 0 8px;
+  background-color: rgb(44, 65, 65);
+}
+
+.access-restrictor__container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+.access-restrictor__form-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.access-restrictor__input {
+  width: 95%;
+  max-width: 300px;
+}
+
+.access-restrictor__button {
+  width: 80%;
+  max-width: 80px;
+  margin-left: 12px;
+}
+
+.access-restrictor__incorrect-password {
+  color: rgb(180, 153, 153);
+  font-size: 16px;
+  margin-top: 8px;
+  text-align: center; 
+}
